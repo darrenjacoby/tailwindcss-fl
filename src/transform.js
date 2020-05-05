@@ -1,10 +1,10 @@
 import { 
-  getArray,
   isUnitRatio,
-  getRoundNum,
   getUnit,
+  getRoundNum,
   getMinFromRatio,
-  getMaxFromRatio } from './math';
+  getMaxFromRatio,
+  getArray } from './math';
 
 export default (opts, theme, e) => {
   const store = {
