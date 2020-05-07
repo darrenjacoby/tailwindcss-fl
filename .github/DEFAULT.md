@@ -1,4 +1,4 @@
-## Extending tailwind fluid classes
+## Fluid classes extending Tailwinds default classes
 
 **Classes resize between screen sizes `screens.sm` and `screens.xl`**
 
