@@ -40,8 +40,8 @@ module.exports = {
     plugins: [
         require('tailwindcss-fl')({
             /* config */
-        })
-    ]
+        }),
+    ],
 }
 ```
 

@@ -95,7 +95,8 @@ export const getRoundNum = (x, rounding) => {
   // get decimals as a tenth
   const arr = Array.from({ length: rounding });
   const decimals = arr.reduce((result) => {
-    result = result * 10;
+    /* eslint-disable-next-line */
+    result *= 10;
     return result;
   }, 1);
 

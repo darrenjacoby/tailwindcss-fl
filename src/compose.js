@@ -64,6 +64,7 @@ export default (maps, opts) => {
     mergeMaps() {
       // https://www.npmjs.com/package/deepmerge#custommerge
       const options = {
+        /* eslint-disable-next-line */
         customMerge: k => {
           if (k === 'config') {
             return (configA, configB) => {
@@ -74,7 +75,6 @@ export default (maps, opts) => {
       }
 
       store.map = merge(store.entry.defaults, store.entry.user, options);
-      
 
       return this;
     },

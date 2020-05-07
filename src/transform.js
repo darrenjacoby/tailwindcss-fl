@@ -67,8 +67,8 @@ export default (opts, theme, e) => {
         screenMax = opts.screenMax] = getArray(value);
 
       const get = (x, y, fn) => {
-        const value = x === '*' ? store.valueDefault : x;
-        return isUnitRatio(x) ? `${getRoundNum(fn(value, y), opts.ratioDecimalRounding)}${getUnit(y)}` : x;
+        const v = x === '*' ? store.valueDefault : x;
+        return isUnitRatio(x) ? `${getRoundNum(fn(v, y), opts.ratioDecimalRounding)}${getUnit(y)}` : x;
       }
 
       return { 

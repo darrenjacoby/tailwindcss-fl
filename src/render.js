@@ -100,11 +100,9 @@ export default (opts) => {
         return Object.prototype.toString.call(x) === '[object String]' && x.includes('rem');
       }, {});
 
-      if (!valid.includes(false)) {
-        return opts.clamp && getNumber(store.sizes.min) <= getNumber(store.sizes.max) ? 
-          store.clamp : 
-          store.mediaQueries;
-      }
+      return !valid.includes(false) ? 
+        opts.clamp && getNumber(store.sizes.min) <= getNumber(store.sizes.max) ? store.clamp : store.mediaQueries :
+        false;
     }
   });
 }

@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss-fl",
   "version": "0.1.0",
-  "description": "TailwindCSS fluid",
+  "description": "TailwindCSS fluid utility classes",
   "author": "Darren Jacoby",
   "license": "MIT",
   "repository": {
