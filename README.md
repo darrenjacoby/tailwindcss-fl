@@ -50,7 +50,7 @@ module.exports = {
 Out the box, the following classes are generated.
 
 Key | Classes
-- | -
+--- | -------
 **`fontSize`** | `fl:text-{ keys }`
 **`width`** | `fl:w-{ keys }`
 **`maxWidth`** | `fl:max-w-{ keys }`
@@ -82,7 +82,7 @@ Below is the default config.
 ```
 
 Option | Type | Description
------- | ------ | -----------
+------ | ---- | -----------
 **`prefix`** | `String` | Prefix for fluid utility classes.
 **`screenMin`** | `Array` | Screen size to scale from. `screens.{key}` or custom `rem/px` value.
 **`screenMax`** | `Array` | Screen size to scale to. `screens.{key}` or custom `rem/px` value.
@@ -165,7 +165,7 @@ However, an array of `[min, max, screenMin, screenMax]` can also be passed, eith
 Parameters are based on **[postcss-range-value](https://github.com/soberwp/postcss-range-value)**.
 
 Param | Type | Description
------- | ------ | -----------
+----- | ---- | -----------
 **`min(required)`** | `String` or `Number` | `rem/px` value or a scale down ratio
 **`max(required)`** | `String` or `Number` | `rem/px` value or a scale up ratio
 **`screenMin`** | `String` | `screens.{key}` or `rem/px` value
