@@ -11,7 +11,7 @@ Class | Properties | Scale | Screen Min & Max
 Plus extending existing classes using `defaultRatio: 2`
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:max-w-xs` | `max-width: 20rem` | `2`
 `.fl:max-w-sm` | `max-width: 24rem` | `2`
 `.fl:max-w-md` | `max-width: 28rem` | `2`
