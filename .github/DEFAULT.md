@@ -5,7 +5,7 @@
 ### **`fontSize`**
 
 Class | Properties | Downscaling Ratio 
-- | - | -
+----- | ---------- | -----------------
 `.fl:text-xs` | `font-size: 0.75rem` | `1.125`
 `.fl:text-sm` | `font-size: 0.875rem` | `1.125`
 `.fl:text-base` | `font-size: 1rem` | `1.125`
@@ -20,7 +20,7 @@ Class | Properties | Downscaling Ratio
 ### **`width`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:w-1` | `width: 0.25rem` | `1.618`
 `.fl:w-2` | `width: 0.5rem` | `1.618`
 `.fl:w-3` | `width: 0.75rem` | `1.618`
@@ -46,7 +46,7 @@ Class | Properties | Downscaling Ratio
 ### **`maxWidth`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:max-w-xs` | `max-width: 20rem` | `1.618`
 `.fl:max-w-sm` | `max-width: 24rem` | `1.618`
 `.fl:max-w-md` | `max-width: 28rem` | `1.618`
@@ -61,7 +61,7 @@ Class | Properties | Downscaling Ratio
 ### **`height`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:h-1` | `height: 0.25rem` | `1.618`
 `.fl:h-2` | `height: 0.5rem` | `1.618`
 `.fl:h-3` | `height: 0.75rem` | `1.618`
@@ -91,7 +91,7 @@ Class | Properties | Downscaling Ratio
 ### **`margin`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:m-1` | `margin: 0.25rem` | `1.618`
 `.fl:m-2` | `margin: 0.5rem` | `1.618`
 `.fl:m-3` | `margin: 0.75rem` | `1.618`
@@ -337,7 +337,7 @@ Class | Properties | Downscaling Ratio
 ### **`padding`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:p-1` | `padding: 0.25rem` | `1.618`
 `.fl:p-2` | `padding: 0.5rem` | `1.618`
 `.fl:p-3` | `padding: 0.75rem` | `1.618`
@@ -463,7 +463,7 @@ Class | Properties | Downscaling Ratio
 ### **`gap`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:gap-1` | `gap: 0.25rem` | `1.618`
 `.fl:gap-2` | `gap: 0.5rem` | `1.618`
 `.fl:gap-3` | `gap: 0.75rem` | `1.618`

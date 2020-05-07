@@ -5,7 +5,7 @@
 ### **`maxWidth`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:max-w-xs` | `max-width: 20rem` | `2`
 `.fl:max-w-sm` | `max-width: 24rem` | `2`
 `.fl:max-w-md` | `max-width: 28rem` | `2`
@@ -20,7 +20,7 @@ Class | Properties | Downscaling Ratio
 ### **`padding`**
 
 Class | Properties | Downscaling Ratio
-- | - | -
+----- | ---------- | -----------------
 `.fl:p-1` | `padding: 0.25rem` | `1.5`
 `.fl:p-2` | `padding: 0.5rem` | `1.5`
 `.fl:p-3` | `padding: 0.75rem` | `1.5`

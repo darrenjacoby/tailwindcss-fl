@@ -2,8 +2,8 @@
 
 ### **`maxWidth`**
 
-Class | Properties | Scale | Between
-- | - | - | -
+Class | Properties | Scale | Screen Min & Max
+----- | ---------- | ----- | -------
 `.fl:max-w-24/2` | `max-width: 24rem` | `12rem-24rem` | `screens.sm` to `screens.xl`
 `.fl:max-w-48/2` | `max-width: 48rem` | `24rem-48rem` | `screens.sm` to `screens.xl`
 `.fl:max-w-64/2` | `max-width: 64rem` | `32rem-64rem` | `screens.md` to `screens.lg`

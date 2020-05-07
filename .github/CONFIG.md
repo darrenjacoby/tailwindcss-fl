@@ -5,7 +5,7 @@
 ### **`fontSize`**
 
 Class | Properties | Downscaling Ratio 
-- | - | -
+----- | ---------- | -----------------
 `.fl:text-xs` | `font-size: 0.75rem` | `1.125`
 `.fl:text-sm` | `font-size: 0.875rem` | `1.125`
 `.fl:text-base` | `font-size: 1rem` | `1.125`
