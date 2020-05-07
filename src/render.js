@@ -101,7 +101,7 @@ export default (opts) => {
       }, {});
 
       if (!valid.includes(false)) {
-        return opts.modernBrowsersOnly && getNumber(store.sizes.min) <= getNumber(store.sizes.max) ? 
+        return opts.clamp && getNumber(store.sizes.min) <= getNumber(store.sizes.max) ? 
           store.clamp : 
           store.mediaQueries;
       }

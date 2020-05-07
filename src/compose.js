@@ -1,8 +1,7 @@
 import merge from 'deepmerge';
-import maps from '../maps.config';
 import { getArray } from './math';
 
-export default (opts) => {
+export default (maps, opts) => {
   const store = {
     /*
     entry: {},

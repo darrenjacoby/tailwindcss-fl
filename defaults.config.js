@@ -1,27 +1,26 @@
-const defaults = {
-  prefix: 'fl',
-  separator: ':',
+export default {
+  prefix: 'fl:',
   screenMin: 'screens.sm',
   screenMax: 'screens.xl',
   rootRem: 16,
-  ratioDecimalRounding: 3,
+  ratioDecimalRounding: 6,
   defaultRatio: 1.618,
-  modernBrowsersOnly: true,
+  clamp: true,
   extend: true,
   variants: [],
   theme: {
     fontSize: {
-      defaultRatio: 1.25,
+      defaultRatio: 1.125,
       config: {
         'sm': 1.125,
         'base': 1.125,
         'lg': 1.125,
-        'xl': 1.125,
-        '2xl': 1.5,
-        '3xl': 1.5,
-        '4xl': 1.618,
-        '5xl': 1.618,
-        '6xl': 1.618,
+        'xl': 1.25,
+        '2xl': 1.25,
+        '3xl': 1.35,
+        '4xl': 1.35,
+        '5xl': 1.5,
+        '6xl': 1.5,
       },
     },
     margin: {
@@ -115,62 +114,3 @@ const defaults = {
     },
   },
 };
-
-const classes = {
-  fontSize: {
-    'text': ['font-size'],
-  },
-  margin: {
-    'm': ['margin'],
-    'mt': ['margin-top'],
-    'mr': ['margin-right'],
-    'mb': ['margin-bottom'],
-    'ml': ['margin-left'],
-    'mx': ['margin-left', 'margin-right'],
-    'my': ['margin-top', 'margin-bottom'],
-  },
-  padding: {
-    'p': ['padding'],
-    'pt': ['padding-top'],
-    'pr': ['padding-right'],
-    'pb': ['padding-bottom'],
-    'pl': ['padding-left'],
-    'px': ['padding-left', 'padding-right'],
-    'py': ['padding-top', 'padding-bottom'],
-  },
-  width: {
-    'w': ['width'],
-  },
-  minWidth: {
-    'min-w': ['min-width'],
-  },
-  maxWidth: {
-    'max-x': ['max-width'],
-  },
-  height: {
-    'h': ['height'],
-  },
-  minHeight: {
-    'min-h': ['min-height'],
-  },
-  maxHeight: {
-    'max-h': ['max-height'],
-  },
-  gap: {
-    'gap': ['gap'],
-    'row-gap': ['row-gap'],
-    'col-gap': ['column-gap'],
-  },
-  spacing: [
-    'margin',
-    'padding',
-    'width',
-    'height',
-    'gap',
-  ]
-}
-
-export default {
-  defaults,
-  classes,
-}

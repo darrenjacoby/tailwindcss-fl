@@ -1,4 +1,5 @@
-import maps from './maps.config';
+import defaults from './defaults.config';
+import classes from './classes.config';
 import compose from './src/compose';
 import collect from './src/collect';
 import transform from './src/transform';
@@ -24,7 +25,8 @@ export default (user) => {
      * 
      * @return {object}
      */
-    const opts = { ...maps.defaults, ...user };
+    const maps = { defaults, classes };
+    const opts = user ? { ...maps.defaults, ...user } : maps.defaults;
     delete opts.theme;
 
     /**
@@ -42,10 +44,11 @@ export default (user) => {
      *   ...
      * }
      */
-    const composeTheme = compose(opts);
+    const composeTheme = compose(maps, opts);
+    const userTheme = user && user.hasOwnProperty('theme') ? user.theme : { };  
 
     const themeToCollect = composeTheme
-      .set(maps.defaults.theme, user.theme)
+      .set(maps.defaults.theme, userTheme)
       .addExtendRules()
       .mergeMaps()
       .addShorthandDefaultRatio()
@@ -77,7 +80,7 @@ export default (user) => {
       .addConfig()
       .get(theme(key));
 
-      // add { themeKey: { render: { className: [props] }, entries: { key: Number or [] } } }
+      // adding { themeKey: { render: { className: [props] }, entries: { key: Number or [] } } }
       result[key] = {
         classes: maps.classes[key], 
         values,
@@ -111,7 +114,7 @@ export default (user) => {
             .addClassName(className, valueKey)
             .get(props, value);
 
-          // push { className: String, props: [], value: { min: String, max: String, screenMin: String, screenMax: String } }
+          // pushing { className: String, props: [], value: { min: String, max: String, screenMin: String, screenMax: String } }
           result.push(addUtility);
         });
       });

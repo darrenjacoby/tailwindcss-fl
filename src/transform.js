@@ -28,7 +28,7 @@ export default (opts, theme, e) => {
     addClassName(className, valueKey) {
       const classNameBuilt = valueKey < 0 ? `-${className}${valueKey}` : `${className}-${valueKey}`;
 
-      store.className = `.${e(`${opts.prefix}${opts.separator}${classNameBuilt}`)}`;
+      store.className = `.${e(`${opts.prefix}${classNameBuilt}`)}`;
 
       return this;
     },
