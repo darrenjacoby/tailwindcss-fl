@@ -1,4 +1,4 @@
-## Default generated classes
+## Extending tailwind fluid classes
 
 **Classes resize between screen sizes `screens.sm` and `screens.xl`**
 
