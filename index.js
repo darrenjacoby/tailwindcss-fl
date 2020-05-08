@@ -99,7 +99,7 @@ export default (user) => {
      *    {
      *     className: String,
      *     props: []
-     *     value: { min: String, max: String, screenMin: String, screenMax: String}
+     *     value: { min: String, max: String, screenMin: String, screenMax: String }
      *    },
      *   ...
      * ]
