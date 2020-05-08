@@ -21,7 +21,7 @@ Tailwind plugin to automatically generate fluid utility classes by extending you
 **Fluid classes**
 ```html
 <div class="fl:m-8 fl:max-w-xl">
-    <h2 class="fl:text-5xl">
+    <h2 class="fl:text-4xl">
         <!-- -->
     </h2>
 </div>
