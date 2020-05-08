@@ -1,4 +1,4 @@
-## Example: Passing an array to custom config
+## Passing an array to custom config example
 
 ### **`maxWidth`**
 

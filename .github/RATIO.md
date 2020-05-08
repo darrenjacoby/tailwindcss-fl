@@ -1,4 +1,4 @@
-## Example: `defaultRatio` only
+## `defaultRatio` only example
 
 **Classes resize between screen sizes `screens.sm` and `screens.xl`**
 
