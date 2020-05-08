@@ -83,7 +83,7 @@ Below is the default config.
 
 Option | Type | Description
 ------ | ---- | -----------
-**`prefix`** | `String` | Prefix for fluid utility classes.
+**`prefix`** | `String` | Class name prefix for fluid utility classes.
 **`screenMin`** | `Array` | Screen size to scale from. `screens.{key}` or custom `rem/px` value.
 **`screenMax`** | `Array` | Screen size to scale to. `screens.{key}` or custom `rem/px` value.
 **`defaultRatio`** | `Number` | Scale down using golden ratio `1.618`.
