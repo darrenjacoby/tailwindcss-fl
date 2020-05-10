@@ -70,7 +70,7 @@ export default (user) => {
      *   ...
      * }
      */
-    const collectUtility = collect(opts, themeToCollect);
+    const collectUtility = collect(maps, opts);
 
     const collectToTransform = Object.entries(themeToCollect).reduce((result, [key, entry]) => {
       const values = collectUtility
@@ -78,7 +78,7 @@ export default (user) => {
       .addDefaultRatio()
       .addIgnore()
       .addConfig()
-      .get(theme(key));
+      .get(key, theme(key));
 
       // adding { themeKey: { render: { className: [props] }, entries: { key: Number or [] } } }
       result[key] = {

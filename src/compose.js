@@ -38,12 +38,21 @@ export default (maps, opts) => {
      */
     addExtendRules() {
       store.entry.defaults = Object.entries(store.entry.defaults).reduce((result, [k, v]) => {
+        // get spacing allowed
         const allowed = Array.isArray(opts.extend) && opts.extend.includes('spacing') ? 
           [ ...opts.extend, ...maps.classes.spacing ] :
           opts.extend;
 
         if (Array.isArray(allowed) && allowed.includes(k) || opts.extend === true) {
           result[k] = v;
+        }
+        // always get ignore array regardless
+        else {
+          /* eslint-disable-next-line */
+          if (v.hasOwnProperty('ignore')) {
+            result[k] = { };
+            result[k].ignore = v.ignore;
+          }
         }
 
         return result;

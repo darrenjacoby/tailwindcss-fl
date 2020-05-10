@@ -1,4 +1,4 @@
-export default (opts) => {
+export default (maps, opts) => {
   const store = {
     /*
     entry: {},
@@ -69,8 +69,17 @@ export default (opts) => {
      * 
      * @return {object}
      */
-    get(themeEntryConfig) {
-      return Object.entries({ ...themeEntryConfig, ...store.config }).reduce((keys, [k]) => {
+    get(key, themeEntryConfig) {
+      // get spacing allowed 
+      const allowed = Array.isArray(opts.extend) && opts.extend.includes('spacing') ? 
+        [ ...opts.extend, ...maps.classes.spacing ] :
+        opts.extend;
+
+      // if then pass themeEntryConfig else empty object
+      const themeEntryConfigAllowed = Array.isArray(allowed) && allowed.includes(key) || allowed === true ? themeEntryConfig : { };
+
+      // reduce themeEntryConfigAllowed and store.config
+      return Object.entries({ ...themeEntryConfigAllowed, ...store.config }).reduce((keys, [k]) => {
         const value = store.config.hasOwnProperty(k) ? 
           store.config[k] : 
           store.defaultRatio;

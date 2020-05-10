@@ -1,5 +1,6 @@
 export default {
-  prefix: 'fl:',
+  prefix: 'fl',
+  separator: ':',
   screenMin: 'screens.sm',
   screenMax: 'screens.xl',
   rootRem: 16,
@@ -22,6 +23,7 @@ export default {
         '5xl': 1.5,
         '6xl': 1.5,
       },
+      ignore: [],
     },
     margin: {
       ignore: [
@@ -36,6 +38,17 @@ export default {
         '0',
         'px',
       ]
+    },
+    space: {
+      ignore: [
+        'px',
+      ],
+    },
+    gap: {
+      ignore: [
+        '0',
+        'px',
+      ],
     },
     width: {
       ignore: [
@@ -106,10 +119,10 @@ export default {
         'full',
       ],
     },
-    gap: {
+    borderRadius: {
       ignore: [
-        '0',
-        'px',
+        'none',
+        'full',
       ],
     },
   },

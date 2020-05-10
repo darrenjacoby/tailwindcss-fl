@@ -26,9 +26,15 @@ export default (opts, theme, e) => {
      * @return {object}
      */
     addClassName(className, valueKey) {
-      const classNameBuilt = valueKey < 0 ? `-${className}${valueKey}` : `${className}-${valueKey}`;
+      // look for . or :(not), etc
+      const classNameArr = className.split('&');
+      const valueKeySupportDefault = valueKey === 'default' ? '' : valueKey;
+      const valueKeySeparator = valueKey === 'default' ? '' : '-';
+      const classNameSupportNegative = valueKey < 0 ?
+        `-${classNameArr[0]}${e(valueKeySupportDefault)}${classNameArr[1]}` : 
+        `${classNameArr[0]}${valueKeySeparator}${e(valueKeySupportDefault)}${classNameArr[1]}`;
 
-      store.className = `.${e(`${opts.prefix}${classNameBuilt}`)}`;
+      store.className = `.${e(`${opts.prefix}${opts.separator}`)}${classNameSupportNegative}`;
 
       return this;
     },
