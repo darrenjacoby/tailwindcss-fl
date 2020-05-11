@@ -200,4 +200,4 @@ The custom values are added to classes `fl:max-w-{ keys }`
 
 ### Fin
 
-Feature requests, questions, found a bug that demands a complaint? [@ the person](https://twitter.com/withjacoby) who has already spent too much time building this.
+Feature requests, questions, hatemail? [@ the person](https://twitter.com/withjacoby) who has already spent too much time building this.
