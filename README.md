@@ -1,6 +1,6 @@
 # tailwindcss-fl
 
-Tailwind plugin to automatically generate fluid utility classes by extending your existing Tailwind config. 
+TailwindCSS plugin to generate fluid utility classes by extending existing config.
 
 ### Motivation
 
