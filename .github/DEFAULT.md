@@ -17,77 +17,6 @@ Class | Properties | Downscaling Ratio
 `.fl:text-5xl` | `font-size: 2.25rem` | `1.5`
 `.fl:text-6xl` | `font-size: 3rem` | `1.5`
 
-### **`width`**
-
-Class | Properties | Downscaling Ratio
------ | ---------- | -----------------
-`.fl:w-1` | `width: 0.25rem` | `1.618`
-`.fl:w-2` | `width: 0.5rem` | `1.618`
-`.fl:w-3` | `width: 0.75rem` | `1.618`
-`.fl:w-4` | `width: 1rem` | `1.618`
-`.fl:w-5` | `width: 1.25rem` | `1.618`
-`.fl:w-6` | `width: 1.5rem` | `1.618`
-`.fl:w-8` | `width: 2rem` | `1.618`
-`.fl:w-10` | `width: 2.5rem` | `1.618`
-`.fl:w-12` | `width: 3rem` | `1.618`
-`.fl:w-16` | `width: 4rem` | `1.618`
-`.fl:w-20` | `width: 5rem` | `1.618`
-`.fl:w-24` | `width: 6rem` | `1.618`
-`.fl:w-32` | `width: 8rem` | `1.618`
-`.fl:w-40` | `width: 10rem` | `1.618`
-`.fl:w-48` | `width: 12rem` | `1.618`
-`.fl:w-56` | `width: 14rem` | `1.618`
-`.fl:w-64` | `width: 16rem` | `1.618`
-
-### **`minWidth`**
-
-**None**
-
-### **`maxWidth`**
-
-Class | Properties | Downscaling Ratio
------ | ---------- | -----------------
-`.fl:max-w-xs` | `max-width: 20rem` | `1.618`
-`.fl:max-w-sm` | `max-width: 24rem` | `1.618`
-`.fl:max-w-md` | `max-width: 28rem` | `1.618`
-`.fl:max-w-lg` | `max-width: 32rem` | `1.618`
-`.fl:max-w-xl` | `max-width: 36rem` | `1.618`
-`.fl:max-w-2xl` | `max-width: 42rem` | `1.618`
-`.fl:max-w-3xl` | `max-width: 48rem` | `1.618`
-`.fl:max-w-4xl` | `max-width: 56rem` | `1.618`
-`.fl:max-w-5xl` | `max-width: 64rem` | `1.618`
-`.fl:max-w-6xl` | `max-width: 72rem` | `1.618`
-
-### **`height`**
-
-Class | Properties | Downscaling Ratio
------ | ---------- | -----------------
-`.fl:h-1` | `height: 0.25rem` | `1.618`
-`.fl:h-2` | `height: 0.5rem` | `1.618`
-`.fl:h-3` | `height: 0.75rem` | `1.618`
-`.fl:h-4` | `height: 1rem` | `1.618`
-`.fl:h-5` | `height: 1.25rem` | `1.618`
-`.fl:h-6` | `height: 1.5rem` | `1.618`
-`.fl:h-8` | `height: 2rem` | `1.618`
-`.fl:h-10` | `height: 2.5rem` | `1.618`
-`.fl:h-12` | `height: 3rem` | `1.618`
-`.fl:h-16` | `height: 4rem` | `1.618`
-`.fl:h-20` | `height: 5rem` | `1.618`
-`.fl:h-24` | `height: 6rem` | `1.618`
-`.fl:h-32` | `height: 8rem` | `1.618`
-`.fl:h-40` | `height: 10rem` | `1.618`
-`.fl:h-48` | `height: 12rem` | `1.618`
-`.fl:h-56` | `height: 14rem` | `1.618`
-`.fl:h-64` | `height: 16rem` | `1.618`
-
-### **`minHeight`**
-
-**None**
-
-### **`maxHeight`**
-
-**None**
-
 ### **`margin`**
 
 Class | Properties | Downscaling Ratio
@@ -460,6 +389,79 @@ Class | Properties | Downscaling Ratio
 `.fl:pl-56` | `padding-left: 14rem` | `1.618`
 `.fl:pl-64` | `padding-left: 16rem` | `1.618`
 
+### **`space`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:space-x-1 > * + *` | `margin-left: 0.25rem` | `1.618`
+`.fl:space-x-2 > * + *` | `margin-left: 0.5rem` | `1.618`
+`.fl:space-x-3 > * + *` | `margin-left: 0.75rem` | `1.618`
+`.fl:space-x-4 > * + *` | `margin-left: 1rem` | `1.618`
+`.fl:space-x-5 > * + *` | `margin-left: 1.25rem` | `1.618`
+`.fl:space-x-6 > * + *` | `margin-left: 1.5rem` | `1.618`
+`.fl:space-x-8 > * + *` | `margin-left: 2rem` | `1.618`
+`.fl:space-x-10 > * + *` | `margin-left: 2.5rem` | `1.618`
+`.fl:space-x-12 > * + *` | `margin-left: 3rem` | `1.618`
+`.fl:space-x-16 > * + *` | `margin-left: 4rem` | `1.618`
+`.fl:space-x-20 > * + *` | `margin-left: 5rem` | `1.618`
+`.fl:space-x-24 > * + *` | `margin-left: 6rem` | `1.618`
+`.fl:space-x-32 > * + *` | `margin-left: 8rem` | `1.618`
+`.fl:space-x-40 > * + *` | `margin-left: 10rem` | `1.618`
+`.fl:space-x-48 > * + *` | `margin-left: 12rem` | `1.618`
+`.fl:space-x-56 > * + *` | `margin-left: 14rem` | `1.618`
+`.fl:space-x-64 > * + *` | `margin-left: 16rem` | `1.618`
+`.fl:-space-x-1 > * + *` | `margin-left: -0.25rem` | `1.618`
+`.fl:-space-x-2 > * + *` | `margin-left: -0.5rem` | `1.618`
+`.fl:-space-x-3 > * + *` | `margin-left: -0.75rem` | `1.618`
+`.fl:-space-x-4 > * + *` | `margin-left: -1rem` | `1.618`
+`.fl:-space-x-5 > * + *` | `margin-left: -1.25rem` | `1.618`
+`.fl:-space-x-6 > * + *` | `margin-left: -1.5rem` | `1.618`
+`.fl:-space-x-8 > * + *` | `margin-left: -2rem` | `1.618`
+`.fl:-space-x-10 > * + *` | `margin-left: -2.5rem` | `1.618`
+`.fl:-space-x-12 > * + *` | `margin-left: -3rem` | `1.618`
+`.fl:-space-x-16 > * + *` | `margin-left: -4rem` | `1.618`
+`.fl:-space-x-20 > * + *` | `margin-left: -5rem` | `1.618`
+`.fl:-space-x-24 > * + *` | `margin-left: -6rem` | `1.618`
+`.fl:-space-x-32 > * + *` | `margin-left: -8rem` | `1.618`
+`.fl:-space-x-40 > * + *` | `margin-left: -10rem` | `1.618`
+`.fl:-space-x-48 > * + *` | `margin-left: -12rem` | `1.618`
+`.fl:-space-x-56 > * + *` | `margin-left: -14rem` | `1.618`
+`.fl:-space-x-64 > * + *` | `margin-left: -16rem` | `1.618`
+`.fl:space-y-1 > * + *` | `margin-top: 0.25rem` | `1.618`
+`.fl:space-y-2 > * + *` | `margin-top: 0.5rem` | `1.618`
+`.fl:space-y-3 > * + *` | `margin-top: 0.75rem` | `1.618`
+`.fl:space-y-4 > * + *` | `margin-top: 1rem` | `1.618`
+`.fl:space-y-5 > * + *` | `margin-top: 1.25rem` | `1.618`
+`.fl:space-y-6 > * + *` | `margin-top: 1.5rem` | `1.618`
+`.fl:space-y-8 > * + *` | `margin-top: 2rem` | `1.618`
+`.fl:space-y-10 > * + *` | `margin-top: 2.5rem` | `1.618`
+`.fl:space-y-12 > * + *` | `margin-top: 3rem` | `1.618`
+`.fl:space-y-16 > * + *` | `margin-top: 4rem` | `1.618`
+`.fl:space-y-20 > * + *` | `margin-top: 5rem` | `1.618`
+`.fl:space-y-24 > * + *` | `margin-top: 6rem` | `1.618`
+`.fl:space-y-32 > * + *` | `margin-top: 8rem` | `1.618`
+`.fl:space-y-40 > * + *` | `margin-top: 10rem` | `1.618`
+`.fl:space-y-48 > * + *` | `margin-top: 12rem` | `1.618`
+`.fl:space-y-56 > * + *` | `margin-top: 14rem` | `1.618`
+`.fl:space-y-64 > * + *` | `margin-top: 16rem` | `1.618`
+`.fl:-space-y-1 > * + *` | `margin-top: -0.25rem` | `1.618`
+`.fl:-space-y-2 > * + *` | `margin-top: -0.5rem` | `1.618`
+`.fl:-space-y-3 > * + *` | `margin-top: -0.75rem` | `1.618`
+`.fl:-space-y-4 > * + *` | `margin-top: -1rem` | `1.618`
+`.fl:-space-y-5 > * + *` | `margin-top: -1.25rem` | `1.618`
+`.fl:-space-y-6 > * + *` | `margin-top: -1.5rem` | `1.618`
+`.fl:-space-y-8 > * + *` | `margin-top: -2rem` | `1.618`
+`.fl:-space-y-10 > * + *` | `margin-top: -2.5rem` | `1.618`
+`.fl:-space-y-12 > * + *` | `margin-top: -3rem` | `1.618`
+`.fl:-space-y-16 > * + *` | `margin-top: -4rem` | `1.618`
+`.fl:-space-y-20 > * + *` | `margin-top: -5rem` | `1.618`
+`.fl:-space-y-24 > * + *` | `margin-top: -6rem` | `1.618`
+`.fl:-space-y-32 > * + *` | `margin-top: -8rem` | `1.618`
+`.fl:-space-y-40 > * + *` | `margin-top: -10rem` | `1.618`
+`.fl:-space-y-48 > * + *` | `margin-top: -12rem` | `1.618`
+`.fl:-space-y-56 > * + *` | `margin-top: -14rem` | `1.618`
+`.fl:-space-y-64 > * + *` | `margin-top: -16rem` | `1.618`
+
 ### **`gap`**
 
 Class | Properties | Downscaling Ratio
@@ -515,3 +517,115 @@ Class | Properties | Downscaling Ratio
 `.fl:col-gap-48` | `column-gap: 12rem` | `1.618`
 `.fl:col-gap-56` | `column-gap: 14rem` | `1.618`
 `.fl:col-gap-64` | `column-gap: 16rem` | `1.618`
+
+### **`width`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:w-1` | `width: 0.25rem` | `1.618`
+`.fl:w-2` | `width: 0.5rem` | `1.618`
+`.fl:w-3` | `width: 0.75rem` | `1.618`
+`.fl:w-4` | `width: 1rem` | `1.618`
+`.fl:w-5` | `width: 1.25rem` | `1.618`
+`.fl:w-6` | `width: 1.5rem` | `1.618`
+`.fl:w-8` | `width: 2rem` | `1.618`
+`.fl:w-10` | `width: 2.5rem` | `1.618`
+`.fl:w-12` | `width: 3rem` | `1.618`
+`.fl:w-16` | `width: 4rem` | `1.618`
+`.fl:w-20` | `width: 5rem` | `1.618`
+`.fl:w-24` | `width: 6rem` | `1.618`
+`.fl:w-32` | `width: 8rem` | `1.618`
+`.fl:w-40` | `width: 10rem` | `1.618`
+`.fl:w-48` | `width: 12rem` | `1.618`
+`.fl:w-56` | `width: 14rem` | `1.618`
+`.fl:w-64` | `width: 16rem` | `1.618`
+
+### **`minWidth`**
+
+**None**
+
+### **`maxWidth`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:max-w-xs` | `max-width: 20rem` | `1.618`
+`.fl:max-w-sm` | `max-width: 24rem` | `1.618`
+`.fl:max-w-md` | `max-width: 28rem` | `1.618`
+`.fl:max-w-lg` | `max-width: 32rem` | `1.618`
+`.fl:max-w-xl` | `max-width: 36rem` | `1.618`
+`.fl:max-w-2xl` | `max-width: 42rem` | `1.618`
+`.fl:max-w-3xl` | `max-width: 48rem` | `1.618`
+`.fl:max-w-4xl` | `max-width: 56rem` | `1.618`
+`.fl:max-w-5xl` | `max-width: 64rem` | `1.618`
+`.fl:max-w-6xl` | `max-width: 72rem` | `1.618`
+
+### **`height`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:h-1` | `height: 0.25rem` | `1.618`
+`.fl:h-2` | `height: 0.5rem` | `1.618`
+`.fl:h-3` | `height: 0.75rem` | `1.618`
+`.fl:h-4` | `height: 1rem` | `1.618`
+`.fl:h-5` | `height: 1.25rem` | `1.618`
+`.fl:h-6` | `height: 1.5rem` | `1.618`
+`.fl:h-8` | `height: 2rem` | `1.618`
+`.fl:h-10` | `height: 2.5rem` | `1.618`
+`.fl:h-12` | `height: 3rem` | `1.618`
+`.fl:h-16` | `height: 4rem` | `1.618`
+`.fl:h-20` | `height: 5rem` | `1.618`
+`.fl:h-24` | `height: 6rem` | `1.618`
+`.fl:h-32` | `height: 8rem` | `1.618`
+`.fl:h-40` | `height: 10rem` | `1.618`
+`.fl:h-48` | `height: 12rem` | `1.618`
+`.fl:h-56` | `height: 14rem` | `1.618`
+`.fl:h-64` | `height: 16rem` | `1.618`
+
+### **`minHeight`**
+
+**None**
+
+### **`maxHeight`**
+
+**None**
+
+### **`borderRadius`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:rounded-sm` | `border-radius: 0.125rem` | `1.618`
+`.fl:rounded` | `border-radius: 0.25rem` | `1.618`
+`.fl:rounded-md` | `border-radius: 0.375rem` | `1.618`
+`.fl:rounded-lg` | `border-radius: 0.5rem` | `1.618`
+`.fl:rounded-t-sm` | `border-top-left-radius: 0.125rem`<br>`border-top-right-radius: 0.125rem` | `1.618`
+`.fl:rounded-r-sm` | `border-top-right-radius: 0.125rem`<br>`border-bottom-right-radius: 0.125rem` | `1.618`
+`.fl:rounded-b-sm` | `border-bottom-left-radius: 0.125rem`<br>`border-bottom-right-radius: 0.125rem` | `1.618`
+`.fl:rounded-l-sm` | `border-top-left-radius: 0.125rem`<br>`border-bottom-left-radius: 0.125rem` | `1.618`
+`.fl:rounded-t` | `border-top-left-radius: 0.25rem`<br>`border-top-right-radius: 0.25rem` | `1.618`
+`.fl:rounded-r` | `border-top-right-radius: 0.25rem`<br>`border-bottom-right-radius: 0.25rem` | `1.618`
+`.fl:rounded-b` | `border-bottom-left-radius: 0.25rem`<br>`border-bottom-right-radius: 0.25rem` | `1.618`
+`.fl:rounded-l` | `border-top-left-radius: 0.25rem`<br>`border-bottom-left-radius: 0.25rem` | `1.618`
+`.fl:rounded-t-md` | `border-top-left-radius: 0.375rem`<br>`border-top-right-radius: 0.375rem` | `1.618`
+`.fl:rounded-r-md` | `border-top-right-radius: 0.375rem`<br>`border-bottom-right-radius: 0.375rem` | `1.618`
+`.fl:rounded-b-md` | `border-bottom-left-radius: 0.375rem`<br>`border-bottom-right-radius: 0.375rem` | `1.618`
+`.fl:rounded-l-md` | `border-top-left-radius: 0.375rem`<br>`border-bottom-left-radius: 0.375rem` | `1.618`
+`.fl:rounded-t-lg` | `border-top-left-radius: 0.5rem`<br>`border-top-right-radius: 0.5rem` | `1.618`
+`.fl:rounded-r-lg` | `border-top-right-radius: 0.5rem`<br>`border-bottom-right-radius: 0.5rem` | `1.618`
+`.fl:rounded-b-lg` | `border-bottom-left-radius: 0.5rem`<br>`border-bottom-right-radius: 0.5rem` | `1.618`
+`.fl:rounded-l-lg` | `border-top-left-radius: 0.5rem`<br>`border-bottom-left-radius: 0.5rem` | `1.618`
+`.fl:rounded-tl-sm` | `border-top-left-radius: 0.125rem` | `1.618`
+`.fl:rounded-tr-sm` | `border-top-right-radius: 0.125rem` | `1.618`
+`.fl:rounded-br-sm` | `border-bottom-right-radius: 0.125rem` | `1.618`
+`.fl:rounded-bl-sm` | `border-bottom-left-radius: 0.125rem` | `1.618`
+`.fl:rounded-tl	` | `border-top-left-radius: 0.25rem` | `1.618`
+`.fl:rounded-tr` | `border-top-right-radius: 0.25rem` | `1.618`
+`.fl:rounded-br` | `border-bottom-right-radius: 0.25rem` | `1.618`
+`.fl:rounded-bl` | `border-bottom-left-radius: 0.25rem` | `1.618`
+`.fl:rounded-tl-md` | `border-top-left-radius: 0.375rem` | `1.618`
+`.fl:rounded-tr-md` | `border-top-right-radius: 0.375rem` | `1.618`
+`.fl:rounded-br-md` | `border-bottom-right-radius: 0.375rem` | `1.618`
+`.fl:rounded-bl-md` | `border-bottom-left-radius: 0.375rem` | `1.618`
+`.fl:rounded-tl-lg` | `border-top-left-radius: 0.5rem` | `1.618`
+`.fl:rounded-tr-lg` | `border-top-right-radius: 0.5rem` | `1.618`
+`.fl:rounded-br-lg` | `border-bottom-right-radius: 0.5rem` | `1.618`
+`.fl:rounded-bl-lg` | `border-bottom-left-radius: 0.5rem` | `1.618`

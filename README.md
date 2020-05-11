@@ -52,12 +52,14 @@ Out the box, the following classes are generated.
 Key | Classes
 --- | -------
 **`fontSize`** | `fl:text-{ keys }`
+**`margin`** | `fl:{ m, mt, mr, mb, ml, mx, my, -m, -mt, -mr, -mb, -ml, -mx, -my }-{ keys }`
+**`padding`** | `fl:{ p, pt, pr, pb, pl, px, py }-{ keys }`
+**`space`** | `fl:{ space-x, space-y }-{ keys }`
+**`gap`** | `fl:gap-{ keys }`
 **`width`** | `fl:w-{ keys }`
 **`maxWidth`** | `fl:max-w-{ keys }`
 **`height`** | `fl:h-{ keys }`
-**`margin`** | `fl:{ m, mt, mr, mb, ml, mx, my, -m, -mt, -mr, -mb, -ml, -mx, -my }-{ keys }`
-**`padding`** | `fl:{ p, pt, pr, pb, pl, px, py }-{ keys }`
-**`gap`** | `fl:gap-{ keys }`
+**`borderRadius`** | `fl:rounded-{ keys }`
 
 Custom classes defined in `tailwind.config.js` under `theme: {}` will be used to generate the fluid utility classes.
 
@@ -69,10 +71,11 @@ Below is the default config.
 
 ```js
 {
-    prefix: 'fl:',
+    prefix: 'fl',
+    separator: ':',
+    defaultRatio: 1.618,
     screenMin: 'screens.sm',
     screenMax: 'screens.xl',
-    defaultRatio: 1.618,
     rootRem: 16,
     clamp: true,
     extend: true,
@@ -83,13 +86,14 @@ Below is the default config.
 
 Option | Type | Description
 ------ | ---- | -----------
-**`prefix`** | `String` | Class name prefix for fluid utility classes.
+**`prefix`** | `String` | Class name prefix for fluid classes.
+**`separator`** | `String` | Class name sepator for fluid classes.
+**`defaultRatio`** | `Number` | Scale down using golden ratio `1.618`.
 **`screenMin`** | `Array` | Screen size to scale from. `screens.{key}` or custom `rem/px` value.
 **`screenMax`** | `Array` | Screen size to scale to. `screens.{key}` or custom `rem/px` value.
-**`defaultRatio`** | `Number` | Scale down using golden ratio `1.618`.
 **`rootRem`** | `Number` | `1rem` is equal to `16px`. Default should work for most cases.
 **`clamp`** | `Boolean` | Enable the use of [`clamp()`](https://caniuse.com/css-math-functions) to avoid using media queries.
-**`extend`** | `Boolean` or `Array` | Extend utility classes, or provide an array of keys to extend, `['margin', 'padding']`.
+**`extend`** | `Boolean` or `Array` | Extend existing class values, or provide an array of keys to extend, `['margin', 'padding']`.
 **`variants`** | `Array` | Tailwind variants, not recommended.
 **`theme`** | `Object` | Detailed in depth below.
 
@@ -179,13 +183,13 @@ theme: {
         defaultRatio: 2,
         config: {
             /* scale down by 2x resulting in 12rem to 24rem between default screen sizes */
-            '24/2': [2, '24rem'],
+            '12/24': [2, '24rem'],
 
             /* scale up by 2x resulting in 24rem to 48rem between default screen sizes */
-            '48/2': ['24rem', 2],
+            '24/48': ['24rem', 2],
 
             /* scale from 32rem to 64rem between screens.md and screens.lg */
-            '64/2': ['32rem', '64rem', 'screens.md', 'screens.lg'],
+            '32/64': ['32rem', '64rem', 'screens.md', 'screens.lg'],
         },
     },
 },
