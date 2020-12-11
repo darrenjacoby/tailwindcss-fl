@@ -61,7 +61,7 @@ Key | Classes
 **`width`** | `fl:w-{ keys }`
 **`maxWidth`** | `fl:max-w-{ keys }`
 **`height`** | `fl:h-{ keys }`
-**`top|right|bottom|left|inset`** | `fl:{top, right, bottom, left, inset, -top, -right, -bottom, -left, -inset}-{ keys }`
+**`top/right/bottom/left/inset`** | `fl:{top, right, bottom, left, inset, -top, -right, -bottom, -left, -inset}-{ keys }`
 **`borderWidth`** | `fl:border-{t, r, b, l}-{ keys }`
 **`borderRadius`** | `fl:rounded-{ keys }`
 
