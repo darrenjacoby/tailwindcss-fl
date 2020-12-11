@@ -28,8 +28,8 @@ export default {
   },
   gap: {
     'gap&': ['gap'],
-    'row-gap&': ['row-gap'],
-    'col-gap&': ['column-gap'],
+    'gap-y&': ['row-gap'],
+    'gap-x&': ['column-gap'],
   },
   width: {
     'w&': ['width'],
@@ -49,6 +49,20 @@ export default {
   maxHeight: {
     'max-h&': ['max-height'],
   },
+  inset: {
+    'top&': ['top'],
+    'right&': ['right'],
+    'bottom&': ['bottom'],
+    'left&': ['left'],
+    'inset&': ['top', 'right', 'bottom', 'left'],
+  },
+  borderWidth: {
+    'border&': ['border-width'],
+    'border-t&': ['border-top-width'],
+    'border-r&': ['border-right-width'],
+    'border-b&': ['border-bottom-width'],
+    'border-l&': ['border-left-width'],
+  },
   borderRadius: {
     'rounded&': ['border-radius'],
     'rounded-t&': ['border-top-left-radius', 'border-top-right-radius'],
@@ -60,6 +74,10 @@ export default {
     'rounded-br&': ['border-bottom-right-radius'],
     'rounded-bl&': ['border-bottom-left-radius'],
   },
+  translate: {
+    'translate-x&': ['--tw-translate-x'],
+    'translate-y&': ['--tw-translate-y'],
+  },
   spacing: [
     'margin',
     'padding',
@@ -67,5 +85,6 @@ export default {
     'gap',
     'width',
     'height',
+    'translate',
   ]
 }

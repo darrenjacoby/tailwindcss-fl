@@ -29,8 +29,8 @@ export default {
       ignore: [
         '0',
         'px',
-        'auto',
         '-px',
+        'auto',
       ],
     },
     padding: {
@@ -93,6 +93,7 @@ export default {
     },
     maxWidth: {
       ignore: [
+        '0',
         'none',
         'full',
       ],
@@ -115,14 +116,50 @@ export default {
     },
     maxHeight: {
       ignore: [
+        '0',
         'screen',
         'full',
+      ],
+    },
+    inset: {
+      ignore: [
+        '0',
+        '-0',
+        'auto',
+        'full',
+        'px',
+        '-px',
+        '1/2',
+        '1/3',
+        '1/4',
+        '2/3',
+        '3/4',
+      ],
+    },
+    translate: {
+      ignore: [
+        '0',
+        '1/2',
+        '1/3',
+        '1/4',
+        '2/4',
+        '3/4',
+        'full',
+        'px',
+        '-px',
       ],
     },
     borderRadius: {
       ignore: [
         'none',
         'full',
+        'DEFAULT',
+      ],
+    },
+    borderWidth: {
+      ignore: [
+        '0',
+        'DEFAULT',
       ],
     },
   },

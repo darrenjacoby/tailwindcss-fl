@@ -410,6 +410,9 @@ Class | Properties | Downscaling Ratio
 `.fl:space-x-48 > * + *` | `margin-left: 12rem` | `1.618`
 `.fl:space-x-56 > * + *` | `margin-left: 14rem` | `1.618`
 `.fl:space-x-64 > * + *` | `margin-left: 16rem` | `1.618`
+`.fl:space-x-72 > * + *` | `margin-left: 18rem` | `1.618`
+`.fl:space-x-80 > * + *` | `margin-left: 20rem` | `1.618`
+`.fl:space-x-96 > * + *` | `margin-left: 24rem` | `1.618`
 `.fl:-space-x-1 > * + *` | `margin-left: -0.25rem` | `1.618`
 `.fl:-space-x-2 > * + *` | `margin-left: -0.5rem` | `1.618`
 `.fl:-space-x-3 > * + *` | `margin-left: -0.75rem` | `1.618`
@@ -427,6 +430,9 @@ Class | Properties | Downscaling Ratio
 `.fl:-space-x-48 > * + *` | `margin-left: -12rem` | `1.618`
 `.fl:-space-x-56 > * + *` | `margin-left: -14rem` | `1.618`
 `.fl:-space-x-64 > * + *` | `margin-left: -16rem` | `1.618`
+`.fl:-space-x-72 > * + *` | `margin-left: -18rem` | `1.618`
+`.fl:-space-x-80 > * + *` | `margin-left: -20rem` | `1.618`
+`.fl:-space-x-92 > * + *` | `margin-left: -24rem` | `1.618`
 `.fl:space-y-1 > * + *` | `margin-top: 0.25rem` | `1.618`
 `.fl:space-y-2 > * + *` | `margin-top: 0.5rem` | `1.618`
 `.fl:space-y-3 > * + *` | `margin-top: 0.75rem` | `1.618`
@@ -444,6 +450,9 @@ Class | Properties | Downscaling Ratio
 `.fl:space-y-48 > * + *` | `margin-top: 12rem` | `1.618`
 `.fl:space-y-56 > * + *` | `margin-top: 14rem` | `1.618`
 `.fl:space-y-64 > * + *` | `margin-top: 16rem` | `1.618`
+`.fl:space-y-72 > * + *` | `margin-top: 18rem` | `1.618`
+`.fl:space-y-80 > * + *` | `margin-top: 20rem` | `1.618`
+`.fl:space-y-92 > * + *` | `margin-top: 24rem` | `1.618`
 `.fl:-space-y-1 > * + *` | `margin-top: -0.25rem` | `1.618`
 `.fl:-space-y-2 > * + *` | `margin-top: -0.5rem` | `1.618`
 `.fl:-space-y-3 > * + *` | `margin-top: -0.75rem` | `1.618`
@@ -461,6 +470,9 @@ Class | Properties | Downscaling Ratio
 `.fl:-space-y-48 > * + *` | `margin-top: -12rem` | `1.618`
 `.fl:-space-y-56 > * + *` | `margin-top: -14rem` | `1.618`
 `.fl:-space-y-64 > * + *` | `margin-top: -16rem` | `1.618`
+`.fl:-space-y-72 > * + *` | `margin-top: -18rem` | `1.618`
+`.fl:-space-y-80 > * + *` | `margin-top: -20rem` | `1.618`
+`.fl:-space-y-92 > * + *` | `margin-top: -24rem` | `1.618`
 
 ### **`gap`**
 
@@ -483,40 +495,49 @@ Class | Properties | Downscaling Ratio
 `.fl:gap-48` | `gap: 12rem` | `1.618`
 `.fl:gap-56` | `gap: 14rem` | `1.618`
 `.fl:gap-64` | `gap: 16rem` | `1.618`
-`.fl:row-gap-1` | `row-gap: 0.25rem` | `1.618`
-`.fl:row-gap-2` | `row-gap: 0.5rem` | `1.618`
-`.fl:row-gap-3` | `row-gap: 0.75rem` | `1.618`
-`.fl:row-gap-4` | `row-gap: 1rem` | `1.618`
-`.fl:row-gap-5` | `row-gap: 1.25rem` | `1.618`
-`.fl:row-gap-6` | `row-gap: 1.5rem` | `1.618`
-`.fl:row-gap-8` | `row-gap: 2rem` | `1.618`
-`.fl:row-gap-10` | `row-gap: 2.5rem` | `1.618`
-`.fl:row-gap-12` | `row-gap: 3rem` | `1.618`
-`.fl:row-gap-16` | `row-gap: 4rem` | `1.618`
-`.fl:row-gap-20` | `row-gap: 5rem` | `1.618`
-`.fl:row-gap-24` | `row-gap: 6rem` | `1.618`
-`.fl:row-gap-32` | `row-gap: 8rem` | `1.618`
-`.fl:row-gap-40` | `row-gap: 10rem` | `1.618`
-`.fl:row-gap-48` | `row-gap: 12rem` | `1.618`
-`.fl:row-gap-56` | `row-gap: 14rem` | `1.618`
-`.fl:row-gap-64` | `row-gap: 16rem` | `1.618`
-`.fl:col-gap-1` | `column-gap: 0.25rem` | `1.618`
-`.fl:col-gap-2` | `column-gap: 0.5rem` | `1.618`
-`.fl:col-gap-3` | `column-gap: 0.75rem` | `1.618`
-`.fl:col-gap-4` | `column-gap: 1rem` | `1.618`
-`.fl:col-gap-5` | `column-gap: 1.25rem` | `1.618`
-`.fl:col-gap-6` | `column-gap: 1.5rem` | `1.618`
-`.fl:col-gap-8` | `column-gap: 2rem` | `1.618`
-`.fl:col-gap-10` | `column-gap: 2.5rem` | `1.618`
-`.fl:col-gap-12` | `column-gap: 3rem` | `1.618`
-`.fl:col-gap-16` | `column-gap: 4rem` | `1.618`
-`.fl:col-gap-20` | `column-gap: 5rem` | `1.618`
-`.fl:col-gap-24` | `column-gap: 6rem` | `1.618`
-`.fl:col-gap-32` | `column-gap: 8rem` | `1.618`
-`.fl:col-gap-40` | `column-gap: 10rem` | `1.618`
-`.fl:col-gap-48` | `column-gap: 12rem` | `1.618`
-`.fl:col-gap-56` | `column-gap: 14rem` | `1.618`
-`.fl:col-gap-64` | `column-gap: 16rem` | `1.618`
+`.fl:gap-72` | `gap: 18rem` | `1.618`
+`.fl:gap-80` | `gap: 20rem` | `1.618`
+`.fl:gap-96` | `gap: 24rem` | `1.618`
+`.fl:gap-y-1` | `row-gap: 0.25rem` | `1.618`
+`.fl:gap-y-2` | `row-gap: 0.5rem` | `1.618`
+`.fl:gap-y-3` | `row-gap: 0.75rem` | `1.618`
+`.fl:gap-y-4` | `row-gap: 1rem` | `1.618`
+`.fl:gap-y-5` | `row-gap: 1.25rem` | `1.618`
+`.fl:gap-y-6` | `row-gap: 1.5rem` | `1.618`
+`.fl:gap-y-8` | `row-gap: 2rem` | `1.618`
+`.fl:gap-y-10` | `row-gap: 2.5rem` | `1.618`
+`.fl:gap-y-12` | `row-gap: 3rem` | `1.618`
+`.fl:gap-y-16` | `row-gap: 4rem` | `1.618`
+`.fl:gap-y-20` | `row-gap: 5rem` | `1.618`
+`.fl:gap-y-24` | `row-gap: 6rem` | `1.618`
+`.fl:gap-y-32` | `row-gap: 8rem` | `1.618`
+`.fl:gap-y-40` | `row-gap: 10rem` | `1.618`
+`.fl:gap-y-48` | `row-gap: 12rem` | `1.618`
+`.fl:gap-y-56` | `row-gap: 14rem` | `1.618`
+`.fl:gap-y-64` | `row-gap: 16rem` | `1.618`
+`.fl:gap-y-72` | `row-gap: 18rem` | `1.618`
+`.fl:gap-y-80` | `row-gap: 20rem` | `1.618`
+`.fl:gap-y-96` | `row-gap: 24rem` | `1.618`
+`.fl:gap-x-1` | `column-gap: 0.25rem` | `1.618`
+`.fl:gap-x-2` | `column-gap: 0.5rem` | `1.618`
+`.fl:gap-x-3` | `column-gap: 0.75rem` | `1.618`
+`.fl:gap-x-4` | `column-gap: 1rem` | `1.618`
+`.fl:gap-x-5` | `column-gap: 1.25rem` | `1.618`
+`.fl:gap-x-6` | `column-gap: 1.5rem` | `1.618`
+`.fl:gap-x-8` | `column-gap: 2rem` | `1.618`
+`.fl:gap-x-10` | `column-gap: 2.5rem` | `1.618`
+`.fl:gap-x-12` | `column-gap: 3rem` | `1.618`
+`.fl:gap-x-16` | `column-gap: 4rem` | `1.618`
+`.fl:gap-x-20` | `column-gap: 5rem` | `1.618`
+`.fl:gap-x-24` | `column-gap: 6rem` | `1.618`
+`.fl:gap-x-32` | `column-gap: 8rem` | `1.618`
+`.fl:gap-x-40` | `column-gap: 10rem` | `1.618`
+`.fl:gap-x-48` | `column-gap: 12rem` | `1.618`
+`.fl:gap-x-56` | `column-gap: 14rem` | `1.618`
+`.fl:gap-x-64` | `column-gap: 16rem` | `1.618`
+`.fl:gap-x-72` | `column-gap: 18rem` | `1.618`
+`.fl:gap-x-80` | `column-gap: 20rem` | `1.618`
+`.fl:gap-x-96` | `column-gap: 24rem` | `1.618`
 
 ### **`width`**
 
@@ -539,6 +560,9 @@ Class | Properties | Downscaling Ratio
 `.fl:w-48` | `width: 12rem` | `1.618`
 `.fl:w-56` | `width: 14rem` | `1.618`
 `.fl:w-64` | `width: 16rem` | `1.618`
+`.fl:w-72` | `width: 18rem` | `1.618`
+`.fl:w-80` | `width: 20rem` | `1.618`
+`.fl:w-96` | `width: 24rem` | `1.618`
 
 ### **`minWidth`**
 
@@ -558,6 +582,7 @@ Class | Properties | Downscaling Ratio
 `.fl:max-w-4xl` | `max-width: 56rem` | `1.618`
 `.fl:max-w-5xl` | `max-width: 64rem` | `1.618`
 `.fl:max-w-6xl` | `max-width: 72rem` | `1.618`
+`.fl:max-w-7xl` | `max-width: 80rem` | `1.618`
 
 ### **`height`**
 
@@ -580,6 +605,9 @@ Class | Properties | Downscaling Ratio
 `.fl:h-48` | `height: 12rem` | `1.618`
 `.fl:h-56` | `height: 14rem` | `1.618`
 `.fl:h-64` | `height: 16rem` | `1.618`
+`.fl:h-72` | `height: 18rem` | `1.618`
+`.fl:h-80` | `height: 20rem` | `1.618`
+`.fl:h-96` | `height: 24rem` | `1.618`
 
 ### **`minHeight`**
 
@@ -589,22 +617,363 @@ Class | Properties | Downscaling Ratio
 
 **None**
 
+### **`top|right|bottom|left|inset`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:top-1` | `top: 0.25rem` | `1.618`
+`.fl:top-2` | `top: 0.5rem` | `1.618`
+`.fl:top-3` | `top: 0.75rem` | `1.618`
+`.fl:top-4` | `top: 1rem` | `1.618`
+`.fl:top-5` | `top: 1.25rem` | `1.618`
+`.fl:top-6` | `top: 1.5rem` | `1.618`
+`.fl:top-8` | `top: 2rem` | `1.618`
+`.fl:top-10` | `top: 2.5rem` | `1.618`
+`.fl:top-12` | `top: 3rem` | `1.618`
+`.fl:top-16` | `top: 4rem` | `1.618`
+`.fl:top-20` | `top: 5rem` | `1.618`
+`.fl:top-24` | `top: 6rem` | `1.618`
+`.fl:top-32` | `top: 8rem` | `1.618`
+`.fl:top-40` | `top: 10rem` | `1.618`
+`.fl:top-48` | `top: 12rem` | `1.618`
+`.fl:top-56` | `top: 14rem` | `1.618`
+`.fl:top-64` | `top: 16rem` | `1.618`
+`.fl:top-72` | `top: 18rem` | `1.618`
+`.fl:top-80` | `top: 20rem` | `1.618`
+`.fl:top-96` | `top: 24rem` | `1.618`
+`.fl:-top-1` | `top: -0.25rem` | `1.618`
+`.fl:-top-2` | `top: -0.5rem` | `1.618`
+`.fl:-top-3` | `top: -0.75rem` | `1.618`
+`.fl:-top-4` | `top: -1rem` | `1.618`
+`.fl:-top-5` | `top: -1.25rem` | `1.618`
+`.fl:-top-6` | `top: -1.5rem` | `1.618`
+`.fl:-top-8` | `top: -2rem` | `1.618`
+`.fl:-top-10` | `top: -2.5rem` | `1.618`
+`.fl:-top-12` | `top: -3rem` | `1.618`
+`.fl:-top-16` | `top: -4rem` | `1.618`
+`.fl:-top-20` | `top: -5rem` | `1.618`
+`.fl:-top-24` | `top: -6rem` | `1.618`
+`.fl:-top-32` | `top: -8rem` | `1.618`
+`.fl:-top-40` | `top: -10rem` | `1.618`
+`.fl:-top-48` | `top: -12rem` | `1.618`
+`.fl:-top-56` | `top: -14rem` | `1.618`
+`.fl:-top-64` | `top: -16rem` | `1.618`
+`.fl:-top-72` | `top: -18rem` | `1.618`
+`.fl:-top-80` | `top: -20rem` | `1.618`
+`.fl:-top-96` | `top: -24rem` | `1.618`
+`.fl:right-1` | `right: 0.25rem` | `1.618`
+`.fl:right-2` | `right: 0.5rem` | `1.618`
+`.fl:right-3` | `right: 0.75rem` | `1.618`
+`.fl:right-4` | `right: 1rem` | `1.618`
+`.fl:right-5` | `right: 1.25rem` | `1.618`
+`.fl:right-6` | `right: 1.5rem` | `1.618`
+`.fl:right-8` | `right: 2rem` | `1.618`
+`.fl:right-10` | `right: 2.5rem` | `1.618`
+`.fl:right-12` | `right: 3rem` | `1.618`
+`.fl:right-16` | `right: 4rem` | `1.618`
+`.fl:right-20` | `right: 5rem` | `1.618`
+`.fl:right-24` | `right: 6rem` | `1.618`
+`.fl:right-32` | `right: 8rem` | `1.618`
+`.fl:right-40` | `right: 10rem` | `1.618`
+`.fl:right-48` | `right: 12rem` | `1.618`
+`.fl:right-56` | `right: 14rem` | `1.618`
+`.fl:right-64` | `right: 16rem` | `1.618`
+`.fl:right-72` | `right: 18rem` | `1.618`
+`.fl:right-80` | `right: 20rem` | `1.618`
+`.fl:right-96` | `right: 24rem` | `1.618`
+`.fl:-right-1` | `right: -0.25rem` | `1.618`
+`.fl:-right-2` | `right: -0.5rem` | `1.618`
+`.fl:-right-3` | `right: -0.75rem` | `1.618`
+`.fl:-right-4` | `right: -1rem` | `1.618`
+`.fl:-right-5` | `right: -1.25rem` | `1.618`
+`.fl:-right-6` | `right: -1.5rem` | `1.618`
+`.fl:-right-8` | `right: -2rem` | `1.618`
+`.fl:-right-10` | `right: -2.5rem` | `1.618`
+`.fl:-right-12` | `right: -3rem` | `1.618`
+`.fl:-right-16` | `right: -4rem` | `1.618`
+`.fl:-right-20` | `right: -5rem` | `1.618`
+`.fl:-right-24` | `right: -6rem` | `1.618`
+`.fl:-right-32` | `right: -8rem` | `1.618`
+`.fl:-right-40` | `right: -10rem` | `1.618`
+`.fl:-right-48` | `right: -12rem` | `1.618`
+`.fl:-right-56` | `right: -14rem` | `1.618`
+`.fl:-right-64` | `right: -16rem` | `1.618`
+`.fl:-right-72` | `right: -18rem` | `1.618`
+`.fl:-right-80` | `right: -20rem` | `1.618`
+`.fl:-right-96` | `right: -24rem` | `1.618`
+`.fl:bottom-1` | `bottom: 0.25rem` | `1.618`
+`.fl:bottom-2` | `bottom: 0.5rem` | `1.618`
+`.fl:bottom-3` | `bottom: 0.75rem` | `1.618`
+`.fl:bottom-4` | `bottom: 1rem` | `1.618`
+`.fl:bottom-5` | `bottom: 1.25rem` | `1.618`
+`.fl:bottom-6` | `bottom: 1.5rem` | `1.618`
+`.fl:bottom-8` | `bottom: 2rem` | `1.618`
+`.fl:bottom-10` | `bottom: 2.5rem` | `1.618`
+`.fl:bottom-12` | `bottom: 3rem` | `1.618`
+`.fl:bottom-16` | `bottom: 4rem` | `1.618`
+`.fl:bottom-20` | `bottom: 5rem` | `1.618`
+`.fl:bottom-24` | `bottom: 6rem` | `1.618`
+`.fl:bottom-32` | `bottom: 8rem` | `1.618`
+`.fl:bottom-40` | `bottom: 10rem` | `1.618`
+`.fl:bottom-48` | `bottom: 12rem` | `1.618`
+`.fl:bottom-56` | `bottom: 14rem` | `1.618`
+`.fl:bottom-64` | `bottom: 16rem` | `1.618`
+`.fl:bottom-72` | `bottom: 18rem` | `1.618`
+`.fl:bottom-80` | `bottom: 20rem` | `1.618`
+`.fl:bottom-96` | `bottom: 24rem` | `1.618`
+`.fl:-bottom-1` | `bottom: -0.25rem` | `1.618`
+`.fl:-bottom-2` | `bottom: -0.5rem` | `1.618`
+`.fl:-bottom-3` | `bottom: -0.75rem` | `1.618`
+`.fl:-bottom-4` | `bottom: -1rem` | `1.618`
+`.fl:-bottom-5` | `bottom: -1.25rem` | `1.618`
+`.fl:-bottom-6` | `bottom: -1.5rem` | `1.618`
+`.fl:-bottom-8` | `bottom: -2rem` | `1.618`
+`.fl:-bottom-10` | `bottom: -2.5rem` | `1.618`
+`.fl:-bottom-12` | `bottom: -3rem` | `1.618`
+`.fl:-bottom-16` | `bottom: -4rem` | `1.618`
+`.fl:-bottom-20` | `bottom: -5rem` | `1.618`
+`.fl:-bottom-24` | `bottom: -6rem` | `1.618`
+`.fl:-bottom-32` | `bottom: -8rem` | `1.618`
+`.fl:-bottom-40` | `bottom: -10rem` | `1.618`
+`.fl:-bottom-48` | `bottom: -12rem` | `1.618`
+`.fl:-bottom-56` | `bottom: -14rem` | `1.618`
+`.fl:-bottom-64` | `bottom: -16rem` | `1.618`
+`.fl:-bottom-72` | `bottom: -18rem` | `1.618`
+`.fl:-bottom-80` | `bottom: -20rem` | `1.618`
+`.fl:-bottom-96` | `bottom: -24rem` | `1.618`
+`.fl:left-1` | `left: 0.25rem` | `1.618`
+`.fl:left-2` | `left: 0.5rem` | `1.618`
+`.fl:left-3` | `left: 0.75rem` | `1.618`
+`.fl:left-4` | `left: 1rem` | `1.618`
+`.fl:left-5` | `left: 1.25rem` | `1.618`
+`.fl:left-6` | `left: 1.5rem` | `1.618`
+`.fl:left-8` | `left: 2rem` | `1.618`
+`.fl:left-10` | `left: 2.5rem` | `1.618`
+`.fl:left-12` | `left: 3rem` | `1.618`
+`.fl:left-16` | `left: 4rem` | `1.618`
+`.fl:left-20` | `left: 5rem` | `1.618`
+`.fl:left-24` | `left: 6rem` | `1.618`
+`.fl:left-32` | `left: 8rem` | `1.618`
+`.fl:left-40` | `left: 10rem` | `1.618`
+`.fl:left-48` | `left: 12rem` | `1.618`
+`.fl:left-56` | `left: 14rem` | `1.618`
+`.fl:left-64` | `left: 16rem` | `1.618`
+`.fl:left-72` | `left: 18rem` | `1.618`
+`.fl:left-80` | `left: 20rem` | `1.618`
+`.fl:left-96` | `left: 24rem` | `1.618`
+`.fl:-left-1` | `left: -0.25rem` | `1.618`
+`.fl:-left-2` | `left: -0.5rem` | `1.618`
+`.fl:-left-3` | `left: -0.75rem` | `1.618`
+`.fl:-left-4` | `left: -1rem` | `1.618`
+`.fl:-left-5` | `left: -1.25rem` | `1.618`
+`.fl:-left-6` | `left: -1.5rem` | `1.618`
+`.fl:-left-8` | `left: -2rem` | `1.618`
+`.fl:-left-10` | `left: -2.5rem` | `1.618`
+`.fl:-left-12` | `left: -3rem` | `1.618`
+`.fl:-left-16` | `left: -4rem` | `1.618`
+`.fl:-left-20` | `left: -5rem` | `1.618`
+`.fl:-left-24` | `left: -6rem` | `1.618`
+`.fl:-left-32` | `left: -8rem` | `1.618`
+`.fl:-left-40` | `left: -10rem` | `1.618`
+`.fl:-left-48` | `left: -12rem` | `1.618`
+`.fl:-left-56` | `left: -14rem` | `1.618`
+`.fl:-left-64` | `left: -16rem` | `1.618`
+`.fl:-left-72` | `left: -18rem` | `1.618`
+`.fl:-left-80` | `left: -20rem` | `1.618`
+`.fl:-left-96` | `left: -24rem` | `1.618`
+`.fl:inset-1` | `top: 0.25rem`<br>`right: 0.25rem`<br>`bottom: 0.25rem`<br>`left: 0.25rem` | `1.618`
+`.fl:inset-2` | `top: 0.5rem`<br>`right: 0.5rem`<br>`bottom: 0.5rem`<br>`left: 0.5rem` | `1.618`
+`.fl:inset-3` | `top: 0.75rem`<br>`right: 0.75rem`<br>`bottom: 0.75rem`<br>`left: 0.75rem` | `1.618`
+`.fl:inset-4` | `top: 1rem`<br>`right: 1rem`<br>`bottom: 1rem`<br>`left: 1rem` | `1.618`
+`.fl:inset-5` | `top: 1.25rem`<br>`right: 1.25rem`<br>`bottom: 1.25rem`<br>`left: 1.25rem` | `1.618`
+`.fl:inset-6` | `top: 1.5rem`<br>`right: 1.5rem`<br>`bottom: 1.5rem`<br>`left: 1.5rem` | `1.618`
+`.fl:inset-8` | `top: 2rem`<br>`right: 2rem`<br>`bottom: 2rem`<br>`left: 2rem` | `1.618`
+`.fl:inset-10` | `top: 2.5rem`<br>`right: 2.5rem`<br>`bottom: 2.5rem`<br>`left: 2.5rem` | `1.618`
+`.fl:inset-12` | `top: 3rem`<br>`right: 3rem`<br>`bottom: 3rem`<br>`left: 3rem` | `1.618`
+`.fl:inset-16` | `top: 4rem`<br>`right: 4rem`<br>`bottom: 4rem`<br>`left: 4rem` | `1.618`
+`.fl:inset-20` | `top: 5rem`<br>`right: 5rem`<br>`bottom: 5rem`<br>`left: 5rem` | `1.618`
+`.fl:inset-24` | `top: 6rem`<br>`right: 6rem`<br>`bottom: 6rem`<br>`left: 6rem` | `1.618`
+`.fl:inset-32` | `top: 8rem`<br>`right: 8rem`<br>`bottom: 8rem`<br>`left: 8rem` | `1.618`
+`.fl:inset-40` | `top: 10rem`<br>`right: 10rem`<br>`bottom: 10rem`<br>`left: 10rem` | `1.618`
+`.fl:inset-48` | `top: 12rem`<br>`right: 12rem`<br>`bottom: 12rem`<br>`left: 12rem` | `1.618`
+`.fl:inset-56` | `top: 14rem`<br>`right: 14rem`<br>`bottom: 14rem`<br>`left: 14rem` | `1.618`
+`.fl:inset-64` | `top: 16rem`<br>`right: 16rem`<br>`bottom: 16rem`<br>`left: 16rem` | `1.618`
+`.fl:inset-72` | `top: 18rem`<br>`right: 18rem`<br>`bottom: 18rem`<br>`left: 18rem` | `1.618`
+`.fl:inset-80` | `top: 20rem`<br>`right: 20rem`<br>`bottom: 20rem`<br>`left: 20rem` | `1.618`
+`.fl:inset-96` | `top: 24rem`<br>`right: 24rem`<br>`bottom: 24rem`<br>`left: 24rem` | `1.618`
+`.fl:-inset-1` | `top: -0.25rem`<br>`right: -0.25rem`<br>`bottom: -0.25rem`<br>`left: -0.25rem` | `1.618`
+`.fl:-inset-2` | `top: -0.5rem`<br>`right: -0.5rem`<br>`bottom: -0.5rem`<br>`left: -0.5rem` | `1.618`
+`.fl:-inset-3` | `top: -0.75rem`<br>`right: -0.75rem`<br>`bottom: -0.75rem`<br>`left: -0.75rem` | `1.618`
+`.fl:-inset-4` | `top: -1rem`<br>`right: -1rem`<br>`bottom: -1rem`<br>`left: -1rem` | `1.618`
+`.fl:-inset-5` | `top: -1.25rem`<br>`right: -1.25rem`<br>`bottom: -1.25rem`<br>`left: -1.25rem` | `1.618`
+`.fl:-inset-6` | `top: -1.5rem`<br>`right: -1.5rem`<br>`bottom: -1.5rem`<br>`left: -1.5rem` | `1.618`
+`.fl:-inset-8` | `top: -2rem`<br>`right: -2rem`<br>`bottom: -2rem`<br>`left: -2rem` | `1.618`
+`.fl:-inset-10` | `top: -2.5rem`<br>`right: -2.5rem`<br>`bottom: -2.5rem`<br>`left: -2.5rem` | `1.618`
+`.fl:-inset-12` | `top: -3rem`<br>`right: -3rem`<br>`bottom: -3rem`<br>`left: -3rem` | `1.618`
+`.fl:-inset-16` | `top: -4rem`<br>`right: -4rem`<br>`bottom: -4rem`<br>`left: -4rem` | `1.618`
+`.fl:-inset-20` | `top: -5rem`<br>`right: -5rem`<br>`bottom: -5rem`<br>`left: -5rem` | `1.618`
+`.fl:-inset-24` | `top: -6rem`<br>`right: -6rem`<br>`bottom: -6rem`<br>`left: -6rem` | `1.618`
+`.fl:-inset-32` | `top: -8rem`<br>`right: -8rem`<br>`bottom: -8rem`<br>`left: -8rem` | `1.618`
+`.fl:-inset-40` | `top: -10rem`<br>`right: -10rem`<br>`bottom: -10rem`<br>`left: -10rem` | `1.618`
+`.fl:-inset-48` | `top: -12rem`<br>`right: -12rem`<br>`bottom: -12rem`<br>`left: -12rem` | `1.618`
+`.fl:-inset-56` | `top: -14rem`<br>`right: -14rem`<br>`bottom: -14rem`<br>`left: -14rem` | `1.618`
+`.fl:-inset-64` | `top: -16rem`<br>`right: -16rem`<br>`bottom: -16rem`<br>`left: -16rem` | `1.618`
+`.fl:-inset-72` | `top: -18rem`<br>`right: -18rem`<br>`bottom: -18rem`<br>`left: -18rem` | `1.618`
+`.fl:-inset-80` | `top: -20rem`<br>`right: -20rem`<br>`bottom: -20rem`<br>`left: -20rem` | `1.618`
+`.fl:-inset-96` | `top: -24rem`<br>`right: -24rem`<br>`bottom: -24rem`<br>`left: -24rem` | `1.618`
+
+### **`translate`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:translate-x-1` | `--tw-translate-x: 0.25rem` | `1.618`
+`.fl:translate-x-2` | `--tw-translate-x: 0.5rem` | `1.618`
+`.fl:translate-x-3` | `--tw-translate-x: 0.75rem` | `1.618`
+`.fl:translate-x-4` | `--tw-translate-x: 1rem` | `1.618`
+`.fl:translate-x-5` | `--tw-translate-x: 1.25rem` | `1.618`
+`.fl:translate-x-6` | `--tw-translate-x: 1.5rem` | `1.618`
+`.fl:translate-x-7` | `--tw-translate-x: 1.75rem` | `1.618`
+`.fl:translate-x-8` | `--tw-translate-x: 2rem` | `1.618`
+`.fl:translate-x-9` | `--tw-translate-x: 2.25rem` | `1.618`
+`.fl:translate-x-10` | `--tw-translate-x: 2.5rem` | `1.618`
+`.fl:translate-x-11` | `--tw-translate-x: 2.75rem` | `1.618`
+`.fl:translate-x-12` | `--tw-translate-x: 3rem` | `1.618`
+`.fl:translate-x-14` | `--tw-translate-x: 3.5rem` | `1.618`
+`.fl:translate-x-16` | `--tw-translate-x: 4rem` | `1.618`
+`.fl:translate-x-20` | `--tw-translate-x: 5rem` | `1.618`
+`.fl:translate-x-24` | `--tw-translate-x: 6rem` | `1.618`
+`.fl:translate-x-28` | `--tw-translate-x: 7rem` | `1.618`
+`.fl:translate-x-32` | `--tw-translate-x: 8rem` | `1.618`
+`.fl:translate-x-36` | `--tw-translate-x: 9rem` | `1.618`
+`.fl:translate-x-40` | `--tw-translate-x: 10rem` | `1.618`
+`.fl:translate-x-44` | `--tw-translate-x: 11rem` | `1.618`
+`.fl:translate-x-48` | `--tw-translate-x: 12rem` | `1.618`
+`.fl:translate-x-52` | `--tw-translate-x: 13rem` | `1.618`
+`.fl:translate-x-56` | `--tw-translate-x: 14rem` | `1.618`
+`.fl:translate-x-60` | `--tw-translate-x: 15rem` | `1.618`
+`.fl:translate-x-64` | `--tw-translate-x: 16rem` | `1.618`
+`.fl:translate-x-72` | `--tw-translate-x: 18rem` | `1.618`
+`.fl:translate-x-80` | `--tw-translate-x: 20rem` | `1.618`
+`.fl:translate-x-96` | `--tw-translate-x: 24rem` | `1.618`
+`.fl:-translate-x-1` | `--tw-translate-x: -0.25rem` | `1.618`
+`.fl:-translate-x-2` | `--tw-translate-x: -0.5rem` | `1.618`
+`.fl:-translate-x-3` | `--tw-translate-x: -0.75rem` | `1.618`
+`.fl:-translate-x-4` | `--tw-translate-x: -1rem` | `1.618`
+`.fl:-translate-x-5` | `--tw-translate-x: -1.25rem` | `1.618`
+`.fl:-translate-x-6` | `--tw-translate-x: -1.5rem` | `1.618`
+`.fl:-translate-x-7` | `--tw-translate-x: -1.75rem` | `1.618`
+`.fl:-translate-x-8` | `--tw-translate-x: -2rem` | `1.618`
+`.fl:-translate-x-9` | `--tw-translate-x: -2.25rem` | `1.618`
+`.fl:-translate-x-10` | `--tw-translate-x: -2.5rem` | `1.618`
+`.fl:-translate-x-11` | `--tw-translate-x: -2.75rem` | `1.618`
+`.fl:-translate-x-12` | `--tw-translate-x: -3rem` | `1.618`
+`.fl:-translate-x-14` | `--tw-translate-x: -3.5rem` | `1.618`
+`.fl:-translate-x-16` | `--tw-translate-x: -4rem` | `1.618`
+`.fl:-translate-x-20` | `--tw-translate-x: -5rem` | `1.618`
+`.fl:-translate-x-24` | `--tw-translate-x: -6rem` | `1.618`
+`.fl:-translate-x-28` | `--tw-translate-x: -7rem` | `1.618`
+`.fl:-translate-x-32` | `--tw-translate-x: -8rem` | `1.618`
+`.fl:-translate-x-36` | `--tw-translate-x: -9rem` | `1.618`
+`.fl:-translate-x-40` | `--tw-translate-x: -10rem` | `1.618`
+`.fl:-translate-x-44` | `--tw-translate-x: -11rem` | `1.618`
+`.fl:-translate-x-48` | `--tw-translate-x: -12rem` | `1.618`
+`.fl:-translate-x-52` | `--tw-translate-x: -13rem` | `1.618`
+`.fl:-translate-x-56` | `--tw-translate-x: -14rem` | `1.618`
+`.fl:-translate-x-60` | `--tw-translate-x: -15rem` | `1.618`
+`.fl:-translate-x-64` | `--tw-translate-x: -16rem` | `1.618`
+`.fl:-translate-x-72` | `--tw-translate-x: -18rem` | `1.618`
+`.fl:-translate-x-80` | `--tw-translate-x: -20rem` | `1.618`
+`.fl:-translate-x-96` | `--tw-translate-x: -24rem` | `1.618`
+`.fl:translate-y-1` | `--tw-translate-y: 0.25rem` | `1.618`
+`.fl:translate-y-2` | `--tw-translate-y: 0.5rem` | `1.618`
+`.fl:translate-y-3` | `--tw-translate-y: 0.75rem` | `1.618`
+`.fl:translate-y-4` | `--tw-translate-y: 1rem` | `1.618`
+`.fl:translate-y-5` | `--tw-translate-y: 1.25rem` | `1.618`
+`.fl:translate-y-6` | `--tw-translate-y: 1.5rem` | `1.618`
+`.fl:translate-y-7` | `--tw-translate-y: 1.75rem` | `1.618`
+`.fl:translate-y-8` | `--tw-translate-y: 2rem` | `1.618`
+`.fl:translate-y-9` | `--tw-translate-y: 2.25rem` | `1.618`
+`.fl:translate-y-10` | `--tw-translate-y: 2.5rem` | `1.618`
+`.fl:translate-y-11` | `--tw-translate-y: 2.75rem` | `1.618`
+`.fl:translate-y-12` | `--tw-translate-y: 3rem` | `1.618`
+`.fl:translate-y-14` | `--tw-translate-y: 3.5rem` | `1.618`
+`.fl:translate-y-16` | `--tw-translate-y: 4rem` | `1.618`
+`.fl:translate-y-20` | `--tw-translate-y: 5rem` | `1.618`
+`.fl:translate-y-24` | `--tw-translate-y: 6rem` | `1.618`
+`.fl:translate-y-28` | `--tw-translate-y: 7rem` | `1.618`
+`.fl:translate-y-32` | `--tw-translate-y: 8rem` | `1.618`
+`.fl:translate-y-36` | `--tw-translate-y: 9rem` | `1.618`
+`.fl:translate-y-40` | `--tw-translate-y: 10rem` | `1.618`
+`.fl:translate-y-44` | `--tw-translate-y: 11rem` | `1.618`
+`.fl:translate-y-48` | `--tw-translate-y: 12rem` | `1.618`
+`.fl:translate-y-52` | `--tw-translate-y: 13rem` | `1.618`
+`.fl:translate-y-56` | `--tw-translate-y: 14rem` | `1.618`
+`.fl:translate-y-60` | `--tw-translate-y: 15rem` | `1.618`
+`.fl:translate-y-64` | `--tw-translate-y: 16rem` | `1.618`
+`.fl:translate-y-72` | `--tw-translate-y: 18rem` | `1.618`
+`.fl:translate-y-80` | `--tw-translate-y: 20rem` | `1.618`
+`.fl:translate-y-96` | `--tw-translate-y: 24rem` | `1.618`
+`.fl:-translate-y-1` | `--tw-translate-y: -0.25rem` | `1.618`
+`.fl:-translate-y-2` | `--tw-translate-y: -0.5rem` | `1.618`
+`.fl:-translate-y-3` | `--tw-translate-y: -0.75rem` | `1.618`
+`.fl:-translate-y-4` | `--tw-translate-y: -1rem` | `1.618`
+`.fl:-translate-y-5` | `--tw-translate-y: -1.25rem` | `1.618`
+`.fl:-translate-y-6` | `--tw-translate-y: -1.5rem` | `1.618`
+`.fl:-translate-y-7` | `--tw-translate-y: -1.75rem` | `1.618`
+`.fl:-translate-y-8` | `--tw-translate-y: -2rem` | `1.618`
+`.fl:-translate-y-9` | `--tw-translate-y: -2.25rem` | `1.618`
+`.fl:-translate-y-10` | `--tw-translate-y: -2.5rem` | `1.618`
+`.fl:-translate-y-11` | `--tw-translate-y: -2.75rem` | `1.618`
+`.fl:-translate-y-12` | `--tw-translate-y: -3rem` | `1.618`
+`.fl:-translate-y-14` | `--tw-translate-y: -3.5rem` | `1.618`
+`.fl:-translate-y-16` | `--tw-translate-y: -4rem` | `1.618`
+`.fl:-translate-y-20` | `--tw-translate-y: -5rem` | `1.618`
+`.fl:-translate-y-24` | `--tw-translate-y: -6rem` | `1.618`
+`.fl:-translate-y-28` | `--tw-translate-y: -7rem` | `1.618`
+`.fl:-translate-y-32` | `--tw-translate-y: -8rem` | `1.618`
+`.fl:-translate-y-36` | `--tw-translate-y: -9rem` | `1.618`
+`.fl:-translate-y-40` | `--tw-translate-y: -10rem` | `1.618`
+`.fl:-translate-y-44` | `--tw-translate-y: -11rem` | `1.618`
+`.fl:-translate-y-48` | `--tw-translate-y: -12rem` | `1.618`
+`.fl:-translate-y-52` | `--tw-translate-y: -13rem` | `1.618`
+`.fl:-translate-y-56` | `--tw-translate-y: -14rem` | `1.618`
+`.fl:-translate-y-60` | `--tw-translate-y: -15rem` | `1.618`
+`.fl:-translate-y-64` | `--tw-translate-y: -16rem` | `1.618`
+`.fl:-translate-y-72` | `--tw-translate-y: -18rem` | `1.618`
+`.fl:-translate-y-80` | `--tw-translate-y: -20rem` | `1.618`
+`.fl:-translate-y-96` | `--tw-translate-y: -24rem` | `1.618`
+
+### **`borderWidth`**
+
+Class | Properties | Downscaling Ratio
+----- | ---------- | -----------------
+`.fl:border-2` | `border-width: 0.125rem` | `1.618`
+`.fl:border-4` | `border-width: 0.25rem` | `1.618`
+`.fl:border-8` | `border-width: 0.5rem` | `1.618`
+`.fl:border-t-2` | `border-top-width: 0.125rem` | `1.618`
+`.fl:border-t-4` | `border-top-width: 0.25rem` | `1.618`
+`.fl:border-t-8` | `border-top-width: 0.5rem` | `1.618`
+`.fl:border-r-2` | `border-right-width: 0.125rem` | `1.618`
+`.fl:border-r-4` | `border-right-width: 0.25rem` | `1.618`
+`.fl:border-r-8` | `border-right-width: 0.5rem` | `1.618`
+`.fl:border-b-2` | `border-bottom-width: 0.125rem` | `1.618`
+`.fl:border-b-4` | `border-bottom-width: 0.25rem` | `1.618`
+`.fl:border-b-8` | `border-bottom-width: 0.5rem` | `1.618`
+`.fl:border-l-2` | `border-left-width: 0.125rem` | `1.618`
+`.fl:border-l-4` | `border-left-width: 0.25rem` | `1.618`
+`.fl:border-l-8` | `border-left-width: 0.5rem` | `1.618l
+
 ### **`borderRadius`**
 
 Class | Properties | Downscaling Ratio
 ----- | ---------- | -----------------
 `.fl:rounded-sm` | `border-radius: 0.125rem` | `1.618`
-`.fl:rounded` | `border-radius: 0.25rem` | `1.618`
 `.fl:rounded-md` | `border-radius: 0.375rem` | `1.618`
 `.fl:rounded-lg` | `border-radius: 0.5rem` | `1.618`
 `.fl:rounded-t-sm` | `border-top-left-radius: 0.125rem`<br>`border-top-right-radius: 0.125rem` | `1.618`
 `.fl:rounded-r-sm` | `border-top-right-radius: 0.125rem`<br>`border-bottom-right-radius: 0.125rem` | `1.618`
 `.fl:rounded-b-sm` | `border-bottom-left-radius: 0.125rem`<br>`border-bottom-right-radius: 0.125rem` | `1.618`
 `.fl:rounded-l-sm` | `border-top-left-radius: 0.125rem`<br>`border-bottom-left-radius: 0.125rem` | `1.618`
-`.fl:rounded-t` | `border-top-left-radius: 0.25rem`<br>`border-top-right-radius: 0.25rem` | `1.618`
-`.fl:rounded-r` | `border-top-right-radius: 0.25rem`<br>`border-bottom-right-radius: 0.25rem` | `1.618`
-`.fl:rounded-b` | `border-bottom-left-radius: 0.25rem`<br>`border-bottom-right-radius: 0.25rem` | `1.618`
-`.fl:rounded-l` | `border-top-left-radius: 0.25rem`<br>`border-bottom-left-radius: 0.25rem` | `1.618`
 `.fl:rounded-t-md` | `border-top-left-radius: 0.375rem`<br>`border-top-right-radius: 0.375rem` | `1.618`
 `.fl:rounded-r-md` | `border-top-right-radius: 0.375rem`<br>`border-bottom-right-radius: 0.375rem` | `1.618`
 `.fl:rounded-b-md` | `border-bottom-left-radius: 0.375rem`<br>`border-bottom-right-radius: 0.375rem` | `1.618`
@@ -617,10 +986,6 @@ Class | Properties | Downscaling Ratio
 `.fl:rounded-tr-sm` | `border-top-right-radius: 0.125rem` | `1.618`
 `.fl:rounded-br-sm` | `border-bottom-right-radius: 0.125rem` | `1.618`
 `.fl:rounded-bl-sm` | `border-bottom-left-radius: 0.125rem` | `1.618`
-`.fl:rounded-tl	` | `border-top-left-radius: 0.25rem` | `1.618`
-`.fl:rounded-tr` | `border-top-right-radius: 0.25rem` | `1.618`
-`.fl:rounded-br` | `border-bottom-right-radius: 0.25rem` | `1.618`
-`.fl:rounded-bl` | `border-bottom-left-radius: 0.25rem` | `1.618`
 `.fl:rounded-tl-md` | `border-top-left-radius: 0.375rem` | `1.618`
 `.fl:rounded-tr-md` | `border-top-right-radius: 0.375rem` | `1.618`
 `.fl:rounded-br-md` | `border-bottom-right-radius: 0.375rem` | `1.618`

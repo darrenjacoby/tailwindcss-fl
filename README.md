@@ -30,7 +30,7 @@ TailwindCSS plugin to generate fluid utility classes by leveraging existing conf
 ### Installation
 
 ```shell
-$ yarn add tailwindcss-fl
+$ npm install tailwindcss-fl
 ```
 
 Add to `tailwind.config.js`
@@ -39,7 +39,9 @@ Add to `tailwind.config.js`
 module.exports = {
     plugins: [
         require('tailwindcss-fl')({
-            /* config */
+            screenMin: 'screens.sm',
+            screenMax: 'screens.xl',
+            defaultRatio: 1.618,
         }),
     ],
 }
@@ -59,6 +61,8 @@ Key | Classes
 **`width`** | `fl:w-{ keys }`
 **`maxWidth`** | `fl:max-w-{ keys }`
 **`height`** | `fl:h-{ keys }`
+**`top|right|bottom|left|inset`** `fl:{top, right, bottom, left, inset, -top, -right, -bottom, -left, -inset}-{ keys }`
+**`borderWidth`** | `fl:border-{t, r, b, l}-{ keys }`
 **`borderRadius`** | `fl:rounded-{ keys }`
 
 Custom classes defined in `tailwind.config.js` under `theme: {}` will be used to generate the fluid utility classes.
@@ -67,7 +71,7 @@ Custom classes defined in `tailwind.config.js` under `theme: {}` will be used to
 
 ### Config
 
-Below is the default config.
+Below is the full default config.
 
 ```js
 {
