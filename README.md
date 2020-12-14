@@ -202,6 +202,6 @@ The custom values are added to classes `fl:max-w-{ keys }`
 
 **[List of generated classes with properties and ratios](.github/CONFIGARRAY.md)**
 
-### Fin
+### Support
 
-Feature requests, questions, hatemail? [@ the person](https://twitter.com/withjacoby) who has already spent too much time building this.
+Follow [@withjacoby](https://twitter.com/withjacoby)
