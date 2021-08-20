@@ -16,7 +16,9 @@ import render from './src/render';
  * 
  * @return {closure}
  */
-export default (user) => {
+const plugin = require('tailwindcss/plugin');
+
+export default plugin.withOptions(function(user = {}) {
   return ({ addUtilities, theme, e }) => {
     /**
      * Setup
@@ -146,4 +148,4 @@ export default (user) => {
 
     renderDeclarations.map(declaration => addUtilities(declaration, opts.variants));
   }
-}
+})

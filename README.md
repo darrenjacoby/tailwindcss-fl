@@ -20,8 +20,8 @@ TailwindCSS plugin to generate fluid utility classes by leveraging existing conf
 
 **Fluid classes**
 ```html
-<div class="fl:m-8 fl:max-w-xl">
-    <h2 class="fl:text-4xl">
+<div class="fl-m-8 fl-max-w-xl">
+    <h2 class="fl-text-4xl">
         <!-- -->
     </h2>
 </div>
@@ -53,17 +53,17 @@ Out the box, the following classes are generated.
 
 Key | Classes
 --- | -------
-**`fontSize`** | `fl:text-{ keys }`
-**`margin`** | `fl:{ m, mt, mr, mb, ml, mx, my, -m, -mt, -mr, -mb, -ml, -mx, -my }-{ keys }`
-**`padding`** | `fl:{ p, pt, pr, pb, pl, px, py }-{ keys }`
-**`space`** | `fl:{ space-x, space-y }-{ keys }`
-**`gap`** | `fl:gap-{ keys }`
-**`width`** | `fl:w-{ keys }`
-**`maxWidth`** | `fl:max-w-{ keys }`
-**`height`** | `fl:h-{ keys }`
-**`top/right/bottom/left/inset`** | `fl:{top, right, bottom, left, inset, -top, -right, -bottom, -left, -inset}-{ keys }`
-**`borderWidth`** | `fl:border-{t, r, b, l}-{ keys }`
-**`borderRadius`** | `fl:rounded-{ keys }`
+**`fontSize`** | `fl-text-{ keys }`
+**`margin`** | `fl-{ m, mt, mr, mb, ml, mx, my, -m, -mt, -mr, -mb, -ml, -mx, -my }-{ keys }`
+**`padding`** | `fl-{ p, pt, pr, pb, pl, px, py }-{ keys }`
+**`space`** | `fl-{ space-x, space-y }-{ keys }`
+**`gap`** | `fl-gap-{ keys }`
+**`width`** | `fl-w-{ keys }`
+**`maxWidth`** | `fl-max-w-{ keys }`
+**`height`** | `fl-h-{ keys }`
+**`top/right/bottom/left/inset`** | `fl-{top, right, bottom, left, inset, -top, -right, -bottom, -left, -inset}-{ keys }`
+**`borderWidth`** | `fl-border-{t, r, b, l}-{ keys }`
+**`borderRadius`** | `fl-rounded-{ keys }`
 
 Custom classes defined in `tailwind.config.js` under `theme: {}` will be used to generate the fluid utility classes.
 
@@ -76,7 +76,7 @@ Below is the full default config.
 ```js
 {
     prefix: 'fl',
-    separator: ':',
+    separator: '-',
     defaultRatio: 1.618,
     screenMin: 'screens.sm',
     screenMax: 'screens.xl',
@@ -116,7 +116,7 @@ theme: {
 },
 ```
 
-The default ratios are applied to classes `fl:max-w-{ keys }` and `fl:{ p, pt, pr, pb, pl, px, py }-{ keys }`
+The default ratios are applied to classes `fl-max-w-{ keys }` and `fl-{ p, pt, pr, pb, pl, px, py }-{ keys }`
 
 **[List of generated classes with properties and ratios](.github/RATIO.md)**
 
@@ -160,7 +160,7 @@ theme: {
 },
 ```
 
-The custom ratios are applied to classes `fl:text-{ keys }`
+The custom ratios are applied to classes `fl-text-{ keys }`
 
 **[List of generated classes with properties and ratios](.github/CONFIG.md)**
 
@@ -198,7 +198,7 @@ theme: {
     },
 },
 ```
-The custom values are added to classes `fl:max-w-{ keys }`
+The custom values are added to classes `fl-max-w-{ keys }`
 
 **[List of generated classes with properties and ratios](.github/CONFIGARRAY.md)**
 
