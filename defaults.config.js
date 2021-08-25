@@ -1,6 +1,6 @@
 export default {
   prefix: 'fl',
-  separator: ':',
+  separator: '-',
   screenMin: 'screens.sm',
   screenMax: 'screens.xl',
   rootRem: 16,
